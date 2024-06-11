@@ -1,0 +1,87 @@
+Exercise 1:
+
+1. Base Values:
+  Binary: 2
+  Octal: 8
+  Hexadecimal: 16
+
+2. Full Forms:
+   ASCII: American Standard Code for Information Interchange.
+   ISCII: Indian Script Code for Information Interchange.
+
+Exercise 2:
+
+1. 1002
+2. 144
+3. 1903
+4. 1241
+5.  202
+6.  87
+
+Exercise 3:
+(110110)2
+(1111000)2
+(114)8
+(1561)8 
+(315)16
+(6C)16
+
+
+Exercise 4:
+
+101
+3568
+301
+
+Exercise 5:
+
+1. Convert decimal to hexadecimal:
+548%16 = 34 will leave a remainder 4,   34%16 =2 will leave a remainder 2, 2%16=0 will leave a remainder 2.so 224
+4052%16 = 253 will leave a remainder 4,   253%16 =15 will leave a remainder 13 which is more than D(9), 15%16=0 will leave a remainder 15 which is F.so FD4
+58%16 = 3 will leave a remainder 10 equivalent to "A",   3%16 =0 will leave a remainder 3, so 3A
+
+2. Convert hexadecimal to decimal:
+4×(16^2)+10×(16 ^1)+2×(16 ^0)=1186 
+9×(16^3)+14×(16^2 )+1×(16 ^1)+10×(16^0)=40474
+6×(16^2)+11×(16^1 )+13×(16^0 )=1725
+
+
+Exercise 6:
+
+1. Convert binary to octal and hexadecimal:
+ 704,1C8
+ 665,1B5
+ 252, 154
+
+Exercise 7:
+
+1. Convert octal to binary:
+2=010,3=011,0=000,6=110, 2306=010011000110
+5=101,6=110,1=001,0=000, 5610=  101110001000
+7=111,4=100,2=101, 742=111100010
+
+Exercise 8:
+
+1. Convert hexadecimal to binary:
+4=0100, 0=0000, 2=0010, 6=0110, 4026= 01000000000100110
+B=1011,C=1100,A=1010,1=0001, BCA1=1011110010100001
+9=1001,8=1000,E=1110,98E=100110001110
+
+Exercise 9:
+IT understand the text by using 7-bit ASCII code which represents each character with a 7-bit binary number to a character in the ASCII table.
+HOTS-> ASCII values of H,0,T,S are 72,79,84 and 83 respectively and thier 7-bit binary numbers are 1001000, 1001111, 1010100 and 1010011
+simlarly for Main-77,97,105,110 and for  CaSe- 67,97,105 and 110
+
+Exercise 10:
+
+1. Base value of the hexadecimal number system:
+The base value is 16.
+
+Exercise 11:
+
+1. Equivalent hexadecimal and binary values for each character of the phrase "हम सब एक":
+for "हम": Hexadecimal is : 0939 092E, Binary: 0000 1001 0011 1001 0000 1001 0010 1110
+for " ": No hexadecimal equivalent, Binary: 0010 0000
+for "सब": Hexadecimal is : 0938 092C, Binary: 0000 1001 0011 1000 0000 1001 0010 1100
+for" ": No hexadecimal equivalent, Binary: 0010 0000
+for - "एक": Hexadecimal: 090F 0915, Binary: 0000 1001 0000 1111 0000 1001 0001 0101

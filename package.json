@@ -1,0 +1,26 @@
+{
+  "name": "cypauto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open",
+    "demotest": "npx cypress run --spec cypress/e2e/Assignments/Integration/Tests/orangehrm.cy.js",
+    "test1": "node_modules\\.bin\\cypress run--config pageLoadTimeout=100000",
+    "cypress:open": "cypress open"
+  },
+  "author": "subhanshaik",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.7.0",
+    "save-dev": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-xpath": "^2.0.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false,
+    "stepDefinitions": "cypress/support/step_definitions"
+  }
+}
