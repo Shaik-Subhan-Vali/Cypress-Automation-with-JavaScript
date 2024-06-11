@@ -2,7 +2,7 @@
 /// <reference types="cypress-xpath" />
 describe('Alerts',()=>{
     it('1st test',()=>{
-
+//
     cy.visit('https://rahulshettyacademy.com/AutomationPractice/')
     cy.xpath('//input[@placeholder="Enter Your Name"]').type('abc')
     //cy.xpath('//input[@onclick="displayAlert()"]').click()
