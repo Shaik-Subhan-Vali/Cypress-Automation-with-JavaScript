@@ -12,12 +12,13 @@
 //     specPattern: 'cypress/UAT/Features/*.{js,feature}'
 //   },
 // });
+
 const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
   e2e: 
   {
-    specPattern: "cypress/e2e/Assignments/Integration/Tests/**/*.spec.js",
+    specPattern: "Cypress Automation/cypress/e2e/Assignments/Integration/Tests/**/*.spec.js",
   },
 
   e2e: 
