@@ -11,14 +11,7 @@ describe('Wish list',()=>{
     })
 
     it('TC_035',()=>{
-        cy.visit('https://bewakoooff.netlify.app/html/login')
-        cy.get('.login-link').click()
-        cy.get('.login-username').type('IzukuMidoriya') 
-        cy.get('.login-password').type('Hero@777!')
-        cy.get('.login-btn').click()
-        cy.on("window:alert", (msg) => {
-            expect(msg).to.include("Logged In");
-        });
+        cy.login()
         //cy.wait(3000)
         cy.xpath('(//div[@class="cardCont"][3])[1]').click({force: true})
         cy.get('.pd-wishlist-text').click({force: true})
@@ -28,14 +21,7 @@ describe('Wish list',()=>{
 
     })
     it('TC_036',()=>{
-        cy.visit('https://bewakoooff.netlify.app/html/login')
-        cy.get('.login-link').click()
-        cy.get('.login-username').type('IzukuMidoriya') 
-        cy.get('.login-password').type('Hero@777!')
-        cy.get('.login-btn').click()
-        cy.on("window:alert", (msg) => {
-            expect(msg).to.include("Logged In");
-        });
+        cy.login()
         //cy.wait(3000)
         cy.xpath('(//div[@class="cardCont"][3])[1]').click({force: true})
         cy.get('.pd-wishlist-text').click({force: true})
@@ -49,15 +35,8 @@ describe('Wish list',()=>{
   });
 
     })
-    it.only('TC_037',()=>{
-        cy.visit('https://bewakoooff.netlify.app/html/login')
-        cy.get('.login-link').click()
-        cy.get('.login-username').type('IzukuMidoriya') 
-        cy.get('.login-password').type('Hero@777!')
-        cy.get('.login-btn').click()
-        cy.on("window:alert", (msg) => {
-            expect(msg).to.include("Logged In");
-        });
+    it('TC_037',()=>{
+        cy.login()
         //cy.wait(3000)
         cy.xpath('(//div[@class="cardCont"][3])[1]').click({force: true})
         cy.get('.pd-wishlist-text').click({force: true})

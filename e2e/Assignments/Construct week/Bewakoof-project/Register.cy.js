@@ -161,7 +161,7 @@ describe('Register',()=>{
             expect(msg1).not.to.eq("User Registered Successfuly!");
         });
     });
-    it.only('TC_013', () => {
+    it('TC_013', () => {
 
         
         cy.visit('https://bewakoooff.netlify.app/html/login');

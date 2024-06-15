@@ -11,28 +11,14 @@ describe('Add to Bag',()=>{
     })
 
     it('TC_026',()=>{
-        cy.visit('https://bewakoooff.netlify.app/html/login')
-        cy.get('.login-link').click()
-        cy.get('.login-username').type('IzukuMidoriya') 
-        cy.get('.login-password').type('Hero@777!')
-        cy.get('.login-btn').click()
-        cy.on("window:alert", (msg) => {
-            expect(msg).to.include("Logged In");
-        });
+        cy.login()
         //cy.wait(3000)
         cy.xpath('(//div[@class="cardCont"][3])[1]').click({force: true})
         cy.get('.pd-add-to-bag-text').click()
     
     })
     it('TC_027',()=>{
-        cy.visit('https://bewakoooff.netlify.app/html/login')
-        cy.get('.login-link').click()
-        cy.get('.login-username').type('IzukuMidoriya') 
-        cy.get('.login-password').type('Hero@777!')
-        cy.get('.login-btn').click()
-        cy.on("window:alert", (msg) => {
-            expect(msg).to.include("Logged In");
-        });
+        cy.login()
         cy.xpath('(//div[@class="cardCont"][3])[1]').click({force: true})
         cy.get('.pd-add-to-bag-text').click()
         cy.wait(3000)
@@ -42,14 +28,7 @@ describe('Add to Bag',()=>{
 
     })
     it('TC_028',()=>{
-        cy.visit('https://bewakoooff.netlify.app/html/login')
-        cy.get('.login-link').click()
-        cy.get('.login-username').type('IzukuMidoriya') 
-        cy.get('.login-password').type('Hero@777!')
-        cy.get('.login-btn').click()
-        cy.on("window:alert", (msg) => {
-            expect(msg).to.include("Logged In");
-        });
+        cy.login()
         cy.xpath('(//div[@class="cardCont"][3])[1]').click({force: true})
         cy.get('.pd-add-to-bag-text').click()
         cy.xpath('(//img[@class="nav-icon"])[2]').click()
@@ -58,14 +37,7 @@ describe('Add to Bag',()=>{
 
     })
     it('TC_029',()=>{
-        cy.visit('https://bewakoooff.netlify.app/html/login')
-        cy.get('.login-link').click()
-        cy.get('.login-username').type('IzukuMidoriya') 
-        cy.get('.login-password').type('Hero@777!')
-        cy.get('.login-btn').click()
-        cy.on("window:alert", (msg) => {
-            expect(msg).to.include("Logged In");
-        });
+        cy.login()
         cy.xpath('(//div[@class="cardCont"][3])[1]').click({force: true})
         cy.get('.pd-add-to-bag-text').click()
         cy.xpath('(//img[@class="nav-icon"])[2]').click()
@@ -74,14 +46,7 @@ describe('Add to Bag',()=>{
 
     })
     it('TC_030',()=>{
-        cy.visit('https://bewakoooff.netlify.app/html/login')
-        cy.get('.login-link').click()
-        cy.get('.login-username').type('IzukuMidoriya') 
-        cy.get('.login-password').type('Hero@777!')
-        cy.get('.login-btn').click()
-        cy.on("window:alert", (msg) => {
-            expect(msg).to.include("Logged In");
-        });
+        cy.login()
         cy.xpath('(//div[@class="cardCont"][3])[1]').click({force: true})
         cy.get('.pd-add-to-bag-text').click()
         cy.xpath('(//img[@class="nav-icon"])[2]').click()
@@ -91,14 +56,7 @@ describe('Add to Bag',()=>{
 
     })
     it('TC_031',()=>{
-        cy.visit('https://bewakoooff.netlify.app/html/login')
-        cy.get('.login-link').click()
-        cy.get('.login-username').type('IzukuMidoriya') 
-        cy.get('.login-password').type('Hero@777!')
-        cy.get('.login-btn').click()
-        cy.on("window:alert", (msg) => {
-            expect(msg).to.include("Logged In");
-        });
+        cy.login()
         cy.xpath('(//div[@class="cardCont"][3])[1]').click({force: true})
         cy.get('.pd-add-to-bag-text').click()
         cy.xpath('(//img[@class="nav-icon"])[2]').click()
@@ -107,14 +65,7 @@ describe('Add to Bag',()=>{
 
     })
     it('TC_032',()=>{
-        cy.visit('https://bewakoooff.netlify.app/html/login')
-        cy.get('.login-link').click()
-        cy.get('.login-username').type('IzukuMidoriya') 
-        cy.get('.login-password').type('Hero@777!')
-        cy.get('.login-btn').click()
-        cy.on("window:alert", (msg) => {
-            expect(msg).to.include("Logged In");
-        });
+        cy.login()
         cy.contains("p", "Men's Slim-Fit Chinos").should('be.visible').click({force: true});
         cy.get('.pd-add-to-bag-text').click()
         cy.go('back')
@@ -125,14 +76,7 @@ describe('Add to Bag',()=>{
 
     })
     it('TC_033',()=>{
-        cy.visit('https://bewakoooff.netlify.app/html/login')
-        cy.get('.login-link').click()
-        cy.get('.login-username').type('IzukuMidoriya') 
-        cy.get('.login-password').type('Hero@777!')
-        cy.get('.login-btn').click()
-        cy.on("window:alert", (msg) => {
-            expect(msg).to.include("Logged In");
-        });
+        cy.login()
         cy.contains("p", "Men's Slim-Fit Chinos").should('be.visible').click({force: true});
         cy.xpath('//button[@class="pd-size-s pd-size-btn"]').click()
         cy.get('.pd-add-to-bag-text').click()
@@ -145,14 +89,7 @@ describe('Add to Bag',()=>{
 
     })
     it('TC_034',()=>{
-        cy.visit('https://bewakoooff.netlify.app/html/login')
-        cy.get('.login-link').click()
-        cy.get('.login-username').type('IzukuMidoriya') 
-        cy.get('.login-password').type('Hero@777!')
-        cy.get('.login-btn').click()
-        cy.on("window:alert", (msg) => {
-            expect(msg).to.include("Logged In");
-        });
+        cy.login()
         cy.contains("p", "Men's Slim-Fit Chinos").should('be.visible').click({force: true});
         cy.xpath('//li[@class="pd-guide"]').click()
         cy.url().should('contain','https://bewakoooff.netlify.app/html/product.html').then(() => {
