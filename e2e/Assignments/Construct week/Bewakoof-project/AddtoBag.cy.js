@@ -38,11 +38,11 @@ describe('Add to Bag',()=>{
     })
     it('TC_029',()=>{
         cy.login()
-        cy.xpath('(//div[@class="cardCont"][3])[1]').click({force: true})
+        cy.xpath('//*[@id="best3"]/div[4]/div/h3').click({ force: true });
         cy.get('.pd-add-to-bag-text').click()
         cy.xpath('(//img[@class="nav-icon"])[2]').click()
+        cy.xpath('//button[@class="remove-cart"]').click()
         cy.xpath('//span[@class="cart-count"]').should('be.visible')
-
 
     })
     it('TC_030',()=>{

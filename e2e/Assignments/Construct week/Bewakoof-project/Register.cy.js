@@ -191,20 +191,24 @@ describe('Register',()=>{
             return true;
         });
     });
-    it.skip('TC_015', () => {
+    it('TC_015', () => {
 
         
         cy.visit('https://bewakoooff.netlify.app/html/login');
         cy.get('.signup-name').type(x.name);
-        cy.get('.signup-username').type(x.username);
-        cy.get('.signup-password').type(x.password);
+        cy.get('.signup-username').type(faker.name.firstName());
+        cy.get('.signup-password').type(faker.name.lastName());
         cy.get('.signup-email').type(x.email);
-        cy.get('.signup-number').type(x.phone)
-        cy.get('.signup-btn').click();
-        cy.on("window:alert", (msg1) => {
-            expect(msg1).to.eq("User is already registered. Please Log in");
-            return true;
-        });
+        cy.get('.signup-number').type('9876543210987')
+        cy.get('.signup-btn').click();//develop
+        if(cy.on("window:alert", (msg1) => {
+            expect(msg1).to.eq("User Registered Successfuly!");
+           
+        }) )
+        {
+            cy.log('Test Case failed')
+        }
+        
     });
     
      
