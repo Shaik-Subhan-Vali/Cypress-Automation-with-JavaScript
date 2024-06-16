@@ -30,10 +30,12 @@ To perform Functional and Usability Testing on the Bewakoof Web Application, ens
 <img alt="Chrome" src="https://img.shields.io/badge/Chrome-4285F4?logo=google-chrome&logoColor=white&style=flat" />
 
 ## Directory Structure
-my-app/
-├─ backend/
-├─ frontend/
-│  ├─ ...
+Daily-Practise-JavaScript/
+├─ e2e/
+├─ Assignments/
+├─ Construct week/
+├─ Bewakoof-project/
+
 
 ## Application Under Test 
 
@@ -65,10 +67,6 @@ AUT URL: [https://bewakoooff.netlify.app/html/index.html](https://bewakoooff.net
 
 </details>
 
-## Credentials
-    "username": "IzukuMidoriya"
-    "password": "Hero@777!"
-
 <details>
 <summary><strong>Testing Methodologies</strong></summary>
 
@@ -78,6 +76,33 @@ AUT URL: [https://bewakoooff.netlify.app/html/index.html](https://bewakoooff.net
 - End-to-End Testing
 
 </details>
+
+## Credentials
+    "username": "IzukuMidoriya"
+    "password": "Hero@777!"
+
+## Cypress Installation & Getting Started
+
+### Prerequisites
+
+Ensure you have Node.js installed on your system. If not, download and install it from [nodejs.org](https://nodejs.org).
+
+### Installation
+
+Open a terminal and navigate to project directory.
+Install Cypress as a development dependency by running:
+
+```bash
+npm install cypress --save-dev
+```
+
+### Running Tests
+
+To execute Cypress tests, use the following command:
+
+```bash
+npx cypress run --spec "cypress/e2e/Assignments/Construct week/Bewakoof-project" --headed
+ ```
 
 
 ## Test Artifacts
