@@ -29,6 +29,12 @@ To perform Functional and Usability Testing on the Bewakoof Web Application, ens
 <img alt="Firefox" src="https://img.shields.io/badge/Firefox-FF9500?logo=firefox-browser&logoColor=white&style=flat" />
 <img alt="Chrome" src="https://img.shields.io/badge/Chrome-4285F4?logo=google-chrome&logoColor=white&style=flat" />
 
+## Directory Structure
+my-app/
+├─ backend/
+├─ frontend/
+│  ├─ ...
+
 ## Application Under Test 
 
 AUT URL: [https://bewakoooff.netlify.app/html/index.html](https://bewakoooff.netlify.app/html/index.html)
@@ -58,6 +64,10 @@ AUT URL: [https://bewakoooff.netlify.app/html/index.html](https://bewakoooff.net
 - Compatibility Testing
 
 </details>
+
+## Credentials
+    "username": "IzukuMidoriya"
+    "password": "Hero@777!"
 
 <details>
 <summary><strong>Testing Methodologies</strong></summary>
