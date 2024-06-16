@@ -70,7 +70,7 @@ AUT URL: [https://bewakoooff.netlify.app/html/index.html](https://bewakoooff.net
 </details>
 
 
-## Attachments
+## Test Artifacts
 Below are the links for Testing Activities
 
 ### [Test Plan](https://drive.google.com/file/d/1V4eXaD3HLLIEVlN-uC7yIKVBOpCQVPdm/view?usp=sharing)
@@ -107,6 +107,11 @@ Below are the links for Testing Activities
 
 ![Defects Status Pie Chart](https://image-charts.com/chart?cht=p&chd=t:14,13&chs=300x300&chl=Functional(14)|Usability(13)&chco=FF6347,FFD700)
 
+
+## Attachments
+![1](https://github.com/Shaik-Subhan-Vali/Daily-Practise-JavaScript/assets/170219220/2bea7189-afef-47d1-9724-d767f623e127)
+![3](https://github.com/Shaik-Subhan-Vali/Daily-Practise-JavaScript/assets/170219220/b7fcbb83-d73f-49b0-864b-22acaeca852e)
+![2](https://github.com/Shaik-Subhan-Vali/Daily-Practise-JavaScript/assets/170219220/fdc6acf8-4f0e-4a47-85a0-b94e10111586)
 
 ## Recommendations & Suggestions
 
