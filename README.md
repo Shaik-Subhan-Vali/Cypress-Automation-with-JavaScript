@@ -89,20 +89,36 @@ Ensure you have Node.js installed on your system. If not, download and install i
 
 ### Installation
 
+## Step 1. Install VS Code
+
+Go to Official Website and download VS Code. After Downloading the VS Code install it in your system.
+
+## Step 2. Install Node JS
+
+Go to Offical Website and download and Install Node JS.
+
+## Step 3. Verify your Node js version and npm version
+
+```bash
+node -v
+```
+
+## Step 4. Download the project
+
+Create a folder. Open a command prompt navigate to your folder. Paste this command(You have to install git first)
+
+git clone https://github.com/Shaik-Subhan-Vali/Daily-Practise-JavaScript.git
+
+It will download this project.
+
+## Step 5. Run the project
+
 Open a terminal and navigate to project directory.
 Install Cypress as a development dependency by running:
 
 ```bash
 npm install cypress --save-dev
 ```
-
-### Running Tests
-
-To execute Cypress tests, use the following command:
-
-```bash
-npx cypress run --spec "cypress/e2e/Assignments/Construct week/Bewakoof-project" --headed
- ```
 
 
 ## Test Artifacts
