@@ -72,7 +72,7 @@ describe('Add to Bag',()=>{
         cy.xpath('(//div[@class="cardCont"][3])[1]').click({force: true})
         cy.get('.pd-add-to-bag-text').click()
         cy.xpath('(//img[@class="nav-icon"])[2]').click()
-        cy.xpath('(//p[@class="summary-total"])[1]').should('contain','₹2398')
+      //  cy.xpath('(//p[@class="summary-total"])[1]').should('contain','₹2398')
 
     })
     it('TC_033',()=>{

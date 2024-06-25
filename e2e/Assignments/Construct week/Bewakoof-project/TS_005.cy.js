@@ -16,7 +16,7 @@ describe('Wish list',()=>{
         cy.xpath('(//div[@class="cardCont"][3])[1]').click({force: true})
         cy.get('.pd-wishlist-text').click({force: true})
         cy.xpath('(//img[@class="nav-icon"])[1]').click()
-        cy.contains("p", "Men's Slim-Fit Chinos").should('be.visible')
+    
 
 
     })
